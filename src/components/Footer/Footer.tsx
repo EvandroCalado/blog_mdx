@@ -30,7 +30,7 @@ export default function Footer() {
           </span>
           <ul className="mb-6 flex items-center space-x-2 text-4xl font-medium sm:mb-0">
             {socials.map((social) => (
-              <li key={social.name}>
+              <li key={social.link}>
                 <Link
                   href={social.link}
                   target="_blank"
