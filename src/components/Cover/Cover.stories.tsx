@@ -1,8 +1,8 @@
-import Cover, { CoverProps } from './Cover';
 import { Meta, StoryFn } from '@storybook/react';
+import Cover, { CoverProps } from './Cover';
 
 export default {
-  title: 'Atoms/Cover',
+  title: 'Components/Cover',
   component: Cover,
   args: {
     cover:

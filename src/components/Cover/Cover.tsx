@@ -13,7 +13,7 @@ export default function Cover({
   coverResourceUrl,
 }: CoverProps) {
   return (
-    <div className="text-center">
+    <div className="mb-10 text-center">
       <div className="relative mb-4 h-[470px] w-full">
         <Image src={cover} alt="cover" fill className="object-cover" />
       </div>
