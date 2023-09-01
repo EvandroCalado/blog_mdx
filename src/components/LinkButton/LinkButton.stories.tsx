@@ -1,8 +1,8 @@
-import LinkButton, { LinkButtonProps } from './LinkButton';
 import { Meta, StoryFn } from '@storybook/react';
+import LinkButton, { LinkButtonProps } from './LinkButton';
 
 export default {
-  title: 'Atoms/LinkButton',
+  title: 'Components/LinkButton',
   component: LinkButton,
   args: {
     children: 'LinkButton',
