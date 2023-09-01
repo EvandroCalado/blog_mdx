@@ -17,7 +17,7 @@ export default function Pagination({
           {Array.from({ length: totalPages }).map((_, index) => (
             <Link
               href={`/page/${index + 1}`}
-              key={index * 349}
+              key={`index-${index}`}
               className={`${index + 1 === currentPage && 'font-bold'}`}
             >
               {index + 1}
