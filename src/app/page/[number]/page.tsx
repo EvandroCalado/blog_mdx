@@ -1,7 +1,7 @@
 import { notFound } from 'next/navigation';
 import Pagination from 'src/components/Pagination/Pagination';
 import PostGrid from 'src/components/PostGrid/PostGrid';
-import PostsPagination from 'src/utils/GetPagination';
+import PostsPagination from 'src/utils/PostPagination';
 
 export type LayoutPagesProps = {
   params: {

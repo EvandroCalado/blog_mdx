@@ -1,6 +1,6 @@
 import Pagination from 'src/components/Pagination/Pagination';
 import PostGrid from 'src/components/PostGrid/PostGrid';
-import PostPagination from '../../utils/GetPagination';
+import PostPagination from '../../utils/PostPagination';
 
 export const metadata = {
   title: 'Blog',
