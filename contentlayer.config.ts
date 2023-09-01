@@ -47,23 +47,25 @@ export const Post = defineDocumentType(() => ({
     author: {
       type: 'nested',
       of: Author,
+      required: true,
     },
     categories: {
       type: 'list',
       of: Category,
+      required: true,
     },
   },
   computedFields: {
     url: {
       type: 'string',
-      resolve: (post) => `/posts/${post._raw.flattenedPath}`,
+      resolve: (post) => `/blog/${post._raw.flattenedPath}`,
     },
   },
 }));
 
 const rehypeoptions = {
   // Use one of Shiki's packaged themes
-  theme: 'dark-plus',
+  theme: 'dracula',
   // Set to true to keep the background color
   keepBackground: true,
 
