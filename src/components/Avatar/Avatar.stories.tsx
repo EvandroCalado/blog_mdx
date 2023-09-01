@@ -1,8 +1,8 @@
-import Avatar, { AvatarProps } from './Avatar';
 import { Meta, StoryFn } from '@storybook/react';
+import Avatar, { AvatarProps } from './Avatar';
 
 export default {
-  title: 'Atoms/Avatar',
+  title: 'Components/Avatar',
   component: Avatar,
   args: {
     name: 'Evandro Calado',
