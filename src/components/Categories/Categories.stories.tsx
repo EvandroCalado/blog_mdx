@@ -1,8 +1,8 @@
-import Categories, { CategoriesProps } from './Categories';
 import { Meta, StoryFn } from '@storybook/react';
+import Categories, { CategoriesProps } from './Categories';
 
 export default {
-  title: 'Atoms/Categories',
+  title: 'Components/Categories',
   component: Categories,
   args: {
     categories: [
