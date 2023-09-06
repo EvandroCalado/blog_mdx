@@ -27,12 +27,12 @@
     @apply mb-4 text-lg font-semibold;
   }
 
-  .article p {
+  .article > p {
     @apply mb-4 text-lg;
   }
 
   .article pre {
-    @apply relative mb-6 grid overflow-x-auto rounded-md border-[1px] border-theme-700 bg-theme-200 px-4 py-2 font-mono font-bold leading-tight after:absolute after:right-2 after:top-2 after:text-xs after:text-theme-700 after:content-[attr(data-language)] dark:border-theme-300 dark:bg-theme-950;
+    @apply relative mb-6 grid overflow-x-auto rounded-md border-[1px] border-theme-700 bg-theme-200 px-4 py-2 font-mono font-bold leading-tight after:absolute after:right-2 after:top-2 after:text-xs after:text-theme-600 after:content-[attr(data-language)] dark:border-theme-300 dark:bg-theme-950;
   }
 
   .article pre code {
@@ -44,7 +44,7 @@
   }
 
   .article blockquote {
-    @apply mb-6 border-l-4 border-theme-900 pl-4 italic opacity-50 dark:border-theme-300;
+    @apply mb-6 border-l-4 border-theme-900 bg-theme-200 p-4 text-lg italic dark:border-theme-300 dark:bg-theme-800;
   }
 
   .article figure {
