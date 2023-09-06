@@ -167,44 +167,12 @@ export const icons = {
       <path d="M3 12h1m8 -9v1m8 8h1m-9 8v1m-6.4 -15.4l.7 .7m12.1 -.7l-.7 .7m0 11.4l.7 .7m-12.1 -.7l-.7 .7" />
     </svg>
   ),
-  html: (
-    <svg
-      xmlns="http://www.w3.org/2000/svg"
-      className="icon icon-tabler icon-tabler-brand-html5"
-      viewBox="0 0 24 24"
-      strokeWidth="1.5"
-      stroke="currentColor"
-      fill="none"
-      strokeLinecap="round"
-      strokeLinejoin="round"
-    >
-      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <path d="M20 4l-2 14.5l-6 2l-6 -2l-2 -14.5z" />
-      <path d="M15.5 8h-7l.5 4h6l-.5 3.5l-2.5 .75l-2.5 -.75l-.1 -.5" />
-    </svg>
-  ),
-  css: (
-    <svg
-      xmlns="http://www.w3.org/2000/svg"
-      className="icon icon-tabler icon-tabler-brand-css3"
-      viewBox="0 0 24 24"
-      strokeWidth="1.5"
-      stroke="currentColor"
-      fill="none"
-      strokeLinecap="round"
-      strokeLinejoin="round"
-    >
-      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <path d="M20 4l-2 14.5l-6 2l-6 -2l-2 -14.5z" />
-      <path d="M8.5 8h7l-4.5 4h4l-.5 3.5l-2.5 .75l-2.5 -.75l-.1 -.5" />
-    </svg>
-  ),
   javascript: (
     <svg
       xmlns="http://www.w3.org/2000/svg"
       className="icon icon-tabler icon-tabler-brand-javascript"
       viewBox="0 0 24 24"
-      strokeWidth="1.5"
+      strokeWidth="1"
       stroke="currentColor"
       fill="none"
       strokeLinecap="round"
@@ -221,7 +189,7 @@ export const icons = {
       xmlns="http://www.w3.org/2000/svg"
       className="icon icon-tabler icon-tabler-brand-typescript"
       viewBox="0 0 24 24"
-      strokeWidth="1.5"
+      strokeWidth="1"
       stroke="currentColor"
       fill="none"
       strokeLinecap="round"
@@ -239,7 +207,7 @@ export const icons = {
       xmlns="http://www.w3.org/2000/svg"
       className="icon icon-tabler icon-tabler-brand-react"
       viewBox="0 0 24 24"
-      strokeWidth="1.5"
+      strokeWidth="1"
       stroke="currentColor"
       fill="none"
       strokeLinecap="round"
@@ -260,7 +228,7 @@ export const icons = {
       xmlns="http://www.w3.org/2000/svg"
       className="icon icon-tabler icon-tabler-brand-nextjs"
       viewBox="0 0 24 24"
-      strokeWidth="1.5"
+      strokeWidth="1"
       stroke="currentColor"
       fill="none"
       strokeLinecap="round"
@@ -276,7 +244,7 @@ export const icons = {
       xmlns="http://www.w3.org/2000/svg"
       className="icon icon-tabler icon-tabler-brand-storybook"
       viewBox="0 0 24 24"
-      strokeWidth="1.5"
+      strokeWidth="1"
       stroke="currentColor"
       fill="none"
       strokeLinecap="round"
@@ -293,7 +261,7 @@ export const icons = {
       xmlns="http://www.w3.org/2000/svg"
       className="icon icon-tabler icon-tabler-brand-tailwind"
       viewBox="0 0 24 24"
-      strokeWidth="1.5"
+      strokeWidth="1"
       stroke="currentColor"
       fill="none"
       strokeLinecap="round"
@@ -308,7 +276,7 @@ export const icons = {
       xmlns="http://www.w3.org/2000/svg"
       className="icon icon-tabler icon-tabler-brand-mongodb"
       viewBox="0 0 24 24"
-      strokeWidth="1.5"
+      strokeWidth="1"
       stroke="currentColor"
       fill="none"
       strokeLinecap="round"
@@ -324,7 +292,7 @@ export const icons = {
       xmlns="http://www.w3.org/2000/svg"
       className="icon icon-tabler icon-tabler-brand-graphql"
       viewBox="0 0 24 24"
-      strokeWidth="1.5"
+      strokeWidth="1"
       stroke="currentColor"
       fill="none"
       strokeLinecap="round"
@@ -353,7 +321,7 @@ export const icons = {
       xmlns="http://www.w3.org/2000/svg"
       className="icon icon-tabler icon-tabler-brand-firebase"
       viewBox="0 0 24 24"
-      strokeWidth="1.5"
+      strokeWidth="1"
       stroke="currentColor"
       fill="none"
       strokeLinecap="round"
@@ -370,7 +338,7 @@ export const icons = {
       xmlns="http://www.w3.org/2000/svg"
       className="icon icon-tabler icon-tabler-brand-docker"
       viewBox="0 0 24 24"
-      strokeWidth="1.5"
+      strokeWidth="1"
       stroke="currentColor"
       fill="none"
       strokeLinecap="round"
