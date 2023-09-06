@@ -1,10 +1,10 @@
 import { useEffect, useState } from 'react';
 import { icons } from 'src/icons';
 
-const initialDarkMode =
-  typeof window !== 'undefined' && localStorage.getItem('theme') === 'dark';
 export default function Toggle() {
-  const [isDarkMode, setIsDarkMode] = useState(initialDarkMode);
+  const [isDarkMode, setIsDarkMode] = useState(
+    localStorage.getItem('theme') === 'dark',
+  );
 
   useEffect(() => {
     if (isDarkMode) {
