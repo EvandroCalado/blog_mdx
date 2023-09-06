@@ -1,4 +1,7 @@
+'use client';
+
 import Image from 'next/image';
+import { TypeAnimation } from 'react-type-animation';
 import { icons } from 'src/icons';
 
 export default function Home() {
@@ -15,13 +18,26 @@ export default function Home() {
           />
         </div>
         <div className="flex flex-col items-center text-center md:w-1/2 md:items-start md:pl-16 md:text-left lg:flex-grow lg:pl-24">
-          <h1 className="title-font mb-8 flex flex-col text-3xl font-medium sm:text-4xl lg:text-6xl">
-            <span className="text-theme-300 dark:text-theme-500">
-              Desenvolvedor Frontend
+          <h1 className="title-font mb-8 flex flex-col space-y-2 text-3xl font-medium lg:mb-12">
+            <span className="font-bold sm:text-5xl lg:text-[6rem]">
+              Evandro Calado
             </span>
-            <span>Evandro Calado</span>
+            <TypeAnimation
+              sequence={[
+                'Desenvolvedor Frontend',
+                1000,
+                'Entusiasta de tecnologias',
+                1000,
+                'Eterno estudande',
+                1000,
+              ]}
+              wrapper="span"
+              speed={50}
+              repeat={Infinity}
+              className="font-mono text-theme-300 sm:text-2xl lg:text-5xl"
+            />
           </h1>
-          <p className="mb-8 leading-relaxed lg:text-lg">
+          {/* <p className="mb-8 leading-relaxed lg:text-lg">
             🚀 Comecei meus estudos na programação em 2022. Desde então, tenho
             me apaixonado cada vez mais pela área e pelo desafio de resolver
             problemas através da programação. Sempre fui fascinado pela
@@ -30,7 +46,7 @@ export default function Home() {
             problemas de maneira eficiente e escalável. Estou animado para
             continuar aprendendo e descobrindo novas maneiras de aplicar minhas
             habilidades de programação para criar soluções inovadoras e úteis.
-          </p>
+          </p> */}
           <div className="flex flex-wrap items-center justify-center [&>svg]:w-10 [&>svg]:lg:w-14">
             {icons.javascript}
             {icons.typescript}
