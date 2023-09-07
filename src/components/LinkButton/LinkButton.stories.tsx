@@ -13,3 +13,11 @@ export default {
 export const Default: StoryFn<LinkButtonProps> = (args) => (
   <LinkButton {...args} />
 );
+
+export const WithIcon: StoryFn<LinkButtonProps> = (args) => (
+  <LinkButton {...args} icon />
+);
+
+export const Disabled: StoryFn<LinkButtonProps> = (args) => (
+  <LinkButton {...args} disabled />
+);
