@@ -31,7 +31,7 @@ export default function Card({
       </div>
       <div className="p-5">
         <div>
-          <Categories categories={categories} className="mb-2" />
+          <Categories categories={categories} className="mb-4" />
         </div>
         <h5 className="mb-2 line-clamp-1 text-2xl font-bold tracking-tight">
           {title}
@@ -40,7 +40,9 @@ export default function Card({
           {description}
         </p>
         <div className="flex items-center justify-between">
-          <LinkButton href={url}>Ler mais</LinkButton>
+          <LinkButton href={url} icon>
+            Ler mais
+          </LinkButton>
           <Avatar
             name={author.name}
             image={author.image}
