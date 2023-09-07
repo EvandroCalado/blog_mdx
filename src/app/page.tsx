@@ -1,7 +1,5 @@
-'use client';
-
 import Image from 'next/image';
-import { TypeAnimation } from 'react-type-animation';
+import TypeEffect from 'src/components/TypeEffect/TypeEffect';
 import { icons } from 'src/icons';
 
 export default function Home() {
@@ -22,19 +20,10 @@ export default function Home() {
             <span className="font-bold sm:text-5xl lg:text-[6rem]">
               Evandro Calado
             </span>
-            <TypeAnimation
-              sequence={[
-                'Desenvolvedor Frontend',
-                1000,
-                'Entusiasta de tecnologias',
-                1000,
-                'Eterno estudande',
-                1000,
-              ]}
-              wrapper="span"
-              speed={50}
-              repeat={Infinity}
-              className="font-mono text-theme-300 sm:text-2xl lg:text-5xl"
+            <TypeEffect
+              type1="Desenvolvedor Frontend"
+              type2="Entusiasta de tecnologias"
+              type3="Eterno estudande"
             />
           </h1>
           {/* <p className="mb-8 leading-relaxed lg:text-lg">
