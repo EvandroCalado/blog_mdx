@@ -25,7 +25,7 @@ export default function LayoutPages({ params }: LayoutPagesProps) {
 
   return (
     <div>
-      <PostGrid posts={currentPosts} />
+      <PostGrid posts={currentPosts} className="my-[110px]" />
       {totalPages > 1 && (
         <Pagination
           totalPages={totalPages}
