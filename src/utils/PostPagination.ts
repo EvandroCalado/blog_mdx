@@ -4,7 +4,7 @@ import { notFound } from 'next/navigation';
 const posts = allPosts.sort((a, b) => b.date.localeCompare(a.date));
 
 const totalPosts = posts.length;
-const postPerPage = 2;
+const postPerPage = 3;
 const totalPages = Math.ceil(totalPosts / postPerPage);
 
 export default function PostsPagination(currentPage: number) {
