@@ -1,9 +1,11 @@
+'use client';
+
 import { useEffect, useState } from 'react';
 import { icons } from 'src/icons';
 
 export default function Toggle() {
   const [isDarkMode, setIsDarkMode] = useState(
-    localStorage.getItem('theme') === 'dark',
+    typeof window !== 'undefined' && localStorage.theme === 'dark',
   );
 
   useEffect(() => {
