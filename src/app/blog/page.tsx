@@ -12,7 +12,10 @@ export default function Blog() {
 
   return (
     <div>
-      <PostGrid posts={currentPosts} />
+      <h1 className="px-4 py-8 text-center text-6xl font-bold">
+        Últimas publicações
+      </h1>
+      <PostGrid posts={currentPosts} className="my-12" />
       {totalPages > 1 && <Pagination totalPages={totalPages} currentPage={1} />}
     </div>
   );
